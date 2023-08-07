@@ -1,0 +1,20 @@
+:root {
+   --font-family: 'Inter', sans-serif;
+   --fontSize-title1: 1.75rem;
+   --fontSize-title2: 1.25rem;
+   --fontSize-text1: 1rem;
+   --fontSize-text2: 0.875rem;
+   --fontSize-text3: 0.75rem;
+   --brand-colors-brand1: #4263EB;
+   --brand-colors-brand2: #364fc7;
+   --grey-color-grey0: #0A0C0D;
+   --grey-color-grey1: #212529;
+   --grey-color-grey2: #495057;
+   --grey-color-grey3: #968E96;
+   --grey-color-grey4: #DEE2E6;
+   --grey-color-grey5: #F8F9FA;
+   --grey-color-grey-opacity-1: rgba(33, 37, 41, 0.5);
+   --grey-color-WhiteFixed: #FFFFFF;
+   --feedback-palette-like: #D7443E;
+}
+
