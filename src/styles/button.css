@@ -2,7 +2,6 @@
     font-weight: 600;
     font-size: var(--font-textSize2);
     background-color: var(--brand-colors-brand1);
-    /* display: flex; */
     margin-left: 250px;
     align-items: center;
     color: var(--grey-color-WhiteFixed);
@@ -20,7 +19,7 @@
     flex-direction: row;
 }
 
-.open-post {
+.open--post {
     background-color: var(--grey-color-grey1);
     color: var(--grey-color-WhiteFixed);
     border: 1px solid var(--grey-color-grey1);
@@ -36,8 +35,3 @@
     align-items: center;
     gap: 8px;
 }
-
-
-
-
-
