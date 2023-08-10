@@ -10,10 +10,40 @@
     border-radius: 0.2rem;
 }
 
+.submit:hover {
+    font-weight: 600;
+    font-size: var(--font-textSize2);
+    background-color: var(--brand-colors-brand2);
+    margin-left: 250px;
+    align-items: center;
+    color: var(--grey-color-WhiteFixed);
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
 .follow {
     background-color: var(--grey-color-WhiteFixed);
     color: var(--grey-color-grey1);
     border: 1px solid var(--grey-color-grey1);
+    padding: 3px;
+    border-radius: 2px;
+    flex-direction: row;
+}
+
+.follow:hover{
+    background-color: var(--grey-color-WhiteFixed);
+    color: var(--brand-colors-brand1);
+    border: 1px solid var(--brand-colors-brand1);
+    padding: 3px;
+    border-radius: 2px;
+    flex-direction: row;
+}
+
+.follow:focus{
+    background-color: var(--brand-colors-brand2);
+    color: var(--grey-color-WhiteFixed);
+    border: 1px solid var(--brand-colors-brand2);
     padding: 3px;
     border-radius: 2px;
     flex-direction: row;
@@ -25,7 +55,24 @@
     border: 1px solid var(--grey-color-grey1);
     padding: 5px;
     border-radius: 3px;
-   
+    flex-direction: row;
+}
+
+.open--post:hover {
+    background-color: var(--brand-colors-brand1);
+    color: var(--grey-color-WhiteFixed);
+    border: 1px solid var(--brand-colors-brand1);
+    padding: 5px;
+    border-radius: 3px;
+    flex-direction: row;
+}
+
+.open--post:focus {
+    background-color: var(--brand-colors-brand2);
+    color: var(--grey-color-WhiteFixed);
+    border: 1px solid var(--brand-colors-brand2);
+    padding: 5px;
+    border-radius: 3px;
     flex-direction: row;
 }
 

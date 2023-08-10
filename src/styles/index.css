@@ -39,7 +39,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px 0 30px 0;
-    width: 100%;
+    width: 90%;
+    height: fit-content;
 }
 
 .new--post__container {
@@ -59,7 +60,7 @@ body {
     display: flex;
 }
 
-.user-name {
+.user__name {
     font-size: var(--fontSize-title2);
     font-weight: 600;
     color: var(--grey-color-grey0);
@@ -67,7 +68,7 @@ body {
     flex-direction: row;
 }
 
-.profession {
+.office {
     color: var(--grey-color-grey2);
 }
 
@@ -119,6 +120,8 @@ body {
 .list--post__container {
    width: 100%;
    height: 100%;
+   display: flex;
+   flex-direction: column;
    margin: 0;
    gap: 3rem;
    text-overflow: clip;
@@ -141,6 +144,14 @@ body {
     border: 1px solid var(--grey-color-grey4);
 }
 
+.input__post:hover {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    border: 1px solid var(--brand-colors-brand1);
+}
+
 .post-description {
     display: flex;
     width: 100%;
@@ -152,17 +163,34 @@ body {
     border: 1px solid var(--grey-color-grey4);
 }
 
+.post-description:hover {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    resize: none;
+    font-size: none;
+    color: none;
+    border: 1px solid var(--brand-colors-brand1);
+}
+
 .post__title {
     font-size: var(--fontSize-title1);
 }
 
-.name--profission_post {
+.article__container {
+    width: 70%;
+    height: fit-content;
+    gap: 20px;  
+}
+
+.list--article__container {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.content__posts {
+.content__post {
     width: 100%;
     display: inline-block;
     white-space: nowrap;
@@ -179,10 +207,19 @@ body {
     gap: 25px;
 }
 
-.article--post__container {
-    width: 630px;
-    height: 250px;
-    gap: 20px;
+
+.modal__controller {
+    width: 80%;
+    height: 300px;
+
+    border: 1px solid var(--grey-color-grey4);
+    border-radius: 1rem;
+    padding: 50pxpx;
+}
+
+.modal__controller::backdrop {
+    /* background-color: var(--grey-color-grey0); */
+    backdrop-filter: blur(1680px);
     
 }
 
