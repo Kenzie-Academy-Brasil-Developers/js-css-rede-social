@@ -199,6 +199,12 @@ body {
     direction: ltr;
 }
 
+.content__post--complete {
+    width: 100%;
+    display: inline-block;
+}
+
+
 .open--post__container {
     width: auto;
     height: auto;
@@ -210,17 +216,29 @@ body {
 
 .modal__controller {
     width: 80%;
-    height: 300px;
+    height: fit-content;
 
     border: 1px solid var(--grey-color-grey4);
     border-radius: 1rem;
-    padding: 50pxpx;
+    padding: 20px;
+    
 }
 
 .modal__controller::backdrop {
     /* background-color: var(--grey-color-grey0); */
     backdrop-filter: blur(1680px);
     
+}
+
+#article__modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal__id {
+    display: flex;
+    justify-content: end;
 }
 
 @media(max-width: 767px) {

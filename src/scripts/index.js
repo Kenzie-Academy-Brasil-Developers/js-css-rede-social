@@ -61,8 +61,15 @@ function createCard(element){
     itemTitle.classList.add("post__title");
     itemTitle.innerText = element.title;
 
-    itemContent.classList.add("content__post");
+    itemTitle.classList.add("title1");
+
+    itemContent.classList.add("content__post--complete");
     itemContent.innerText = element.text;
+
+
+    itemContent.classList.add("text1");
+
+    divTitle.classList.add("list--article__container")
 
     divImage.append(itemUser, itemOffice);
     divTitle.append(itemImage, divImage);
