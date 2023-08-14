@@ -1,6 +1,6 @@
 .submit {
-    font-weight: 600;
-    font-size: var(--font-textSize2);
+    font-weight: 400;
+    font-size: var(--font-textSize1);
     background-color: var(--brand-colors-brand1);
     margin-left: 250px;
     align-items: center;
@@ -11,8 +11,8 @@
 }
 
 .submit:hover {
-    font-weight: 600;
-    font-size: var(--font-textSize2);
+    font-weight: 400;
+    font-size: var(--font-textSize1);
     background-color: var(--brand-colors-brand2);
     margin-left: 250px;
     align-items: center;
